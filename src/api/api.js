@@ -22,8 +22,9 @@ export const loginUser = async (email, password) => {
 export const fetchUsers = async (page) => {
     console.log("Fetching users from:", `${API_BASE_URL}/users?page=${page}`);
     const response = await axios.get(`${API_BASE_URL}/users?page=${page}`);
+    console.log("gET THE DATA" , response.data);
     return response.data;
-    console.log("gET THE DATA");
+    
 };
 
 export const updateUser = async (id, userData) => {
