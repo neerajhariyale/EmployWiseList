@@ -2,7 +2,7 @@
 
 # *LOGIN CREDENTIALS* 
 
-📧Email : eve.holt@reqres.in
+📧Email : eve.holt@reqres.in <br>
 🔑Password : cityslicka
 
 
