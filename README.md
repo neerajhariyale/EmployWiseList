@@ -1,6 +1,6 @@
 # **EmployWiseList** 🔗 : https://employwiselist.netlify.app/
 
-# **🚨 LOGIN CREDENTIALS**
+## **🚨 LOGIN CREDENTIALS**
 
 📧Email : eve.holt@reqres.in <br>
 🔑Password : cityslicka
@@ -33,7 +33,7 @@ npm run dev
 ```
 This will launch the project on http://localhost:3000.
 
-###**Contributing**
+# **Contributing**
 Feel free to contribute by submitting a pull request.
 
 
