@@ -1,6 +1,11 @@
 # **EmployWiseList** 🔗 : https://employwiselist.netlify.app/
 
-A React-based user management system integrating the Reqres API for authentication, user listing, pagination, and editing functionalities.
+# *LOGIN CREDENTIALS* 
+
+📧Email : eve.holt@reqres.in
+🔑Password : cityslicka
+
+
 
 ## **Installation & Setup**
 
