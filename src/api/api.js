@@ -1,9 +1,10 @@
 import axios from 'axios';
 
 
-const API_BASE_URL = 'https://reqres.in/api';
+// const API_BASE_URL =process.env.REACT_APP_API_BASE_URL || 'https://reqres.in/api';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL ;
 
-console.log("process.env.REACT_APP_API_BASE_URL", process.env.REACT_APP_API_BASE_URL);
+
 console.log("API_BASE_URL: ", API_BASE_URL);
 
 
@@ -19,6 +20,7 @@ export const loginUser = async (email, password) => {
 };
 
 export const fetchUsers = async (page) => {
+    console.log("Fetching users from:", `${API_BASE_URL}/users?page=${page}`);
     const response = await axios.get(`${API_BASE_URL}/users?page=${page}`);
     return response.data;
     console.log("gET THE DATA");
